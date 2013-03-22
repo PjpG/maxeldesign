@@ -19,30 +19,24 @@ body {
   background-repeat: repeat;
 }
 
-body section#wrap {
+body #wrap {
   height: 500px;
 }
 
-section#wrap, header, article, footer {
+#wrap, header, article, footer {
   margin: 0 auto;
   margin-top: 3%;
-/*  width: 1200px;*/
   width: 85%;
   height: 100%;
 }
 
 header {
-/*  height: 200px;*/
   height: 40%;
 }
 
 article {
-/*  height: 250px;*/
   height: 46%;
   margin: 0 auto;
-/*  width: 926px;*/
-/*  width: 1066px;*/
-/*  width: 74%;*/
   line-height: 1.20em;
   font-size: 1.2em;
 }
@@ -99,50 +93,42 @@ header p {
   font-size: 1.8em;
 }
 
-div.box {
+.box {
   background-color: rgba(255, 255, 255, 0.5);
-/*  width: 346px;*/
   width: 24.05%;
   height: 230px;
-/*  height: 39%;*/
   color: black;
   position: fixed;
 }
 
-div.box div.inside_box {
+.box .inside_box {
   margin: 0 auto;
   width: 240px;
-/*  width: 69.5%;*/
 }
 
-/*div.inner {
-  margin: 0 10px;
-}
-*/
-div#about {
+#about {
   left: 13%;
 }
 #about .inside_box p {
   font-size: 1em;
 }
-div#portfolio {
+#portfolio {
   left: 38%;
 }
 #portfolio .inside_box img {
   width: 100%;
 }
-div#contact {
+#contact {
   right: 13%;
 }
 
-p.more {
+.more {
   margin: 0;
   cursor: pointer;
   text-align: center;
   padding: 3px;
   border: solid 1px black;
   width: 60px;
-/*  margin-left: 270px;*/
   background-color: gray;
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
@@ -152,7 +138,7 @@ p.more {
   bottom: 10px;
 }
 
-span.close {
+.close {
   position: absolute;
   top: 5px;
   right: 5px;
@@ -169,7 +155,6 @@ span.close {
   background-color: rgba(255, 255, 255, 0.5);
   color: black;
   height: 230px;
-/*  margin-left: 34%;*/
   position: fixed;
   width: 49.05%;
   left: 38%;
@@ -179,7 +164,6 @@ span.close {
   display: none;
   background-color: rgba(255, 255, 255, 0.5);
   color: black;
-/*  height: 55%;*/
   height: 300px;
   width: 55%;
   left: 22.5%;
